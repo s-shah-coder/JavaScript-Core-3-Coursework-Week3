@@ -16,6 +16,9 @@ Take a look at the following code:
 
 Explain why line 4 and line 6 output different numbers.
 
+line 1 is declared as a global variable
+line 4 is declared within the function and is a local variable
+
 ## Question 2
 
 Take a look at the following code:
@@ -34,6 +37,9 @@ console.log(y)
 ```
 
 What will be the output of this code. Explain your answer in 50 words or less.
+
+line 27: x value is a global variable and will output 10.
+line 32: undefined as y is a local variable
 
 ## Question 3
 
@@ -62,3 +68,5 @@ console.log(y);
 ```
 
 What will be the output of this code. Explain your answer in 50 words or less.
+
+
